@@ -3,13 +3,18 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "./pages/Home/Home";
 import { Toaster } from "react-hot-toast";
 import Nav from "../src/components/Nav";
+import Hero from "./components/Hero.jsx";
 
 function App() {
   return (
     <>
       <div className="App font-nunito-eb">
         <div className="">
+          
+          <div className="max-w-7xl mx-auto pt-20 px-6">
           <Nav />
+          </div>
+          <Hero />
           {/* <div className="py-5"></div> */}
           <Toaster position="top-center" toastOptions={{ duration: 2000 }} />
           <BrowserRouter>
