@@ -1,0 +1,7 @@
+.hover-blue:hover {
+  background-color: rgb(62, 109, 209);
+  animation: ease-in 1s;
+}
+.hover-white:hover {
+  background-color: aliceblue;
+}
