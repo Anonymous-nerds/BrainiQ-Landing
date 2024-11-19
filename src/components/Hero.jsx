@@ -3,7 +3,8 @@ const Hero = () => {
   return (
     <div className="flex flex-col items-center mt-6 lg:mt-20">
       <h1 className="text-4xl sm:text-6xl lg:text-7xl text-center tracking-wide">
-      Working with data to grow <br />
+      Working with data to   
+      <span className='bg-gradient-to-t from-blue-500  to-blue-500'> {""}grow <br /></span>
         <span className="bg-gradient-to-r from-blue-500 to-blue-500 text-transparent bg-clip-text">
           {" "}
           Buisnesses

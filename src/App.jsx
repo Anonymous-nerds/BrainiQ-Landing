@@ -4,6 +4,8 @@ import Home from "./pages/Home/Home";
 import { Toaster } from "react-hot-toast";
 import Nav from "../src/components/Nav";
 import Hero from "./components/Hero.jsx";
+import SolutionPage from "./components/SolutionPage";
+
 
 function App() {
   return (
@@ -15,6 +17,7 @@ function App() {
           <Nav />
           </div>
           <Hero />
+          <SolutionPage />
           {/* <div className="py-5"></div> */}
           <Toaster position="top-center" toastOptions={{ duration: 2000 }} />
           <BrowserRouter>
