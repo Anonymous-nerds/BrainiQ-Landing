@@ -30,7 +30,7 @@ export default function Nav() {
           <div className="flex lg:flex-1 ">
             <a href="/" className="-m-1.5 p-1.5">
               {/* <span className="sr-only">Explained</span> */}
-              <img className="h-12 w-auto" src={Logo} alt="Logo" />
+              <img className="h-12 w-auto" src="../Images/logoBiQ.png" alt="Logo" />
             </a>
           </div>
 
