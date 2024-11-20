@@ -12,6 +12,10 @@ import user4 from "../assets/profile-pictures/user4.jpg";
 import user5 from "../assets/profile-pictures/user5.jpg";
 import user6 from "../assets/profile-pictures/user6.jpg";
 
+import png1 from "../assets/profile-pictures/r1.png";
+import png2 from "../assets/profile-pictures/r2.png";
+import png3 from "../assets/profile-pictures/r3.png";
+
 export const navItems = [
   { label: "Features", href: "#" },
   { label: "Workflow", href: "#" },
@@ -55,6 +59,26 @@ export const testimonials = [
     company: "Synergy Systems",
     image: user6,
     text: "The team went above and beyond to ensure our project was a success. Their expertise and dedication are unmatched. I look forward to working with them again in the future.",
+  },
+];
+ export const pictures =[
+  {
+    description: "Cookieless Tracking What It is And How does It work",
+    price: "47,043",
+    detail: "Posted on July 2021",
+    image: png1,
+  },
+  {
+    description: "What is Behaivoral Targeting and Why Does it Work",
+    price: "66,353",
+    detail: "Posted on July 2021",
+    image: png2,
+  },
+  {
+    description: "Employee Attribution Rises In the Philiphines",
+    price: "35,853",
+    detail: "Posted on July 2021",
+    image: png3,
   },
 ];
 

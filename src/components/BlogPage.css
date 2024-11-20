@@ -1,0 +1,15 @@
+.flexColStart {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+.r-head {
+  margin-bottom: 2rem;
+}
+.primaryText {
+  color: black;
+  font-weight: 400;
+  font-size: 3rem;
+  margin-top: 20px;
+}

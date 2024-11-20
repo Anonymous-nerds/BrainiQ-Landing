@@ -1,5 +1,6 @@
 import React from 'react'
 import CountUp from "react-countup";
+import "./WhyPage.css"
 
 const WhyPage = () => {
   return (
@@ -9,10 +10,10 @@ const WhyPage = () => {
             Why Solution</span>  
         </div>
         <div className='text-center'>
-        <h2 className='text-10xl sm:text-5xl lg:text-6xl mt-10 lg:mt-20 tracking-wide'>We're here <br /> to 
-            <span className='bg-gradient-to-r from-yellow-500 to-yellow-800 text-transparent bg-clip-text pt-10'> 
-                change the game </span></h2>
-                <p className='mt-10 text-lg text-center text-neutral-500 max-w-4xl'>
+        <h2 className=' font-bold text-10xl sm:text-5xl lg:text-6xl mt-10 lg:mt-20 tracking-wide'>We're here <br /> to 
+            <span className='bg-gradient-to-r text font-bold from-yellow-500 to-yellow-800 text-transparent bg-clip-text pt-10'> 
+                 {" "}change the game </span></h2>
+                <p className='mt-10 text-lg text-center text-white max-w-4xl'>
                 We are venture-backed with the latest customer analytics solutions technology
                 to create <br /> long-lasting growth and impact for your business.
                  </p> 
@@ -26,11 +27,11 @@ const WhyPage = () => {
                  </div>
         </div>
 
-        <div className=' flex flex-wrap gap-8 justify-center items-center stats'>
-            <div className="flex justify-center items-center flex-col text-10xl stats">
-                <span>
-                    <CountUp start={8000} end={9000} duration={4}/>
-                    <span>+</span>
+        <div className='flexCenter stats'>
+            <div className="flexColStart  font-semibold stat">
+                <span className='numberText'>
+                    <CountUp start={1} end={94} duration={4}/>
+                    <span>M+</span>
                     </span>
                     <span className='secondaryText'>Premium Product</span>
                 
@@ -38,21 +39,20 @@ const WhyPage = () => {
 
         
 
-        <div className='flex  justify-center items-center flex-wrap text-10xl stats'>
-                <span>
-                    <CountUp start={1950} end={2000} duration={4}/>
+        <div className='flexColStart  font-semibold stat'>
+                <span className='numberText'>
+                    <CountUp start={100} end={400} duration={4}/>
                     <span>+</span>
                     </span>
                     <span className='secondaryText'>Happy Customers</span>
             </div>
 
-            <div className='flex flex-col  justify-center items-center flex-wrap stats'>
-                <span>
-                    <CountUp  end={28} duration={4}/>
-                    <span>+</span>
+            <div className='flexColStart font-semibold stat'>
+                <span className='numberText'>
+                    <CountUp  end={82} duration={4}/>
+                    <span>%</span>
                     </span>
-                    <span className='secondaryText'>Premium Product</span>
-                
+                    <span className='secondaryText'>Award Winning</span> 
             </div>
         </div>
     </div>
