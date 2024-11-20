@@ -24,6 +24,9 @@ const PrivacyPage = () => {
                     <div className='flex'>
                         <h5 className='mt-9 ml-8 mb-6 text-xl font-semibold'>{picture.description}</h5>
                     </div>
+                    <div className='detail'>
+                    <h5 className='mt-1 ml-8 mb-6 text-sm font-medium'>{picture.detail}</h5>
+                    </div>
 
                 
             </div>
