@@ -5,21 +5,19 @@ import { Toaster } from "react-hot-toast";
 import Nav from "../src/components/Nav";
 import Hero from "./components/Hero.jsx";
 import SolutionPage from "./components/SolutionPage.jsx";
-import WhyPage from "./components/WhyPage.jsx"
+import WhyPage from "./components/WhyPage.jsx";
 import BlogPage from "./components/BlogPage.jsx";
 import FaqPage from "./components/FaqPage.jsx";
 import PrivacyPage from "./components/PrivacyPage.jsx";
 import FooterPage from "./components/FooterPage.jsx";
 
-
 function App() {
   return (
-    <>
-      <div className="App font-nunito-eb">
-        <div className="">
-          
+    <div className="App font-nunito-eb">
+      <div className="">
+        <div className="max-w-7xl mx-auto pt-20 px-6">
           <div className="max-w-7xl mx-auto pt-20 px-6">
-          <Nav />
+            <Nav />
           </div>
           <Hero />
           <SolutionPage />
@@ -38,7 +36,7 @@ function App() {
           </BrowserRouter>
         </div>
       </div>
-    </>
+    </div>
   );
 }
 
