@@ -1,6 +1,7 @@
 .stats {
   width: 100%;
   justify-content: space-between;
+  font-weight: bolder;
 }
 .stat > :nth-child(1) {
   font-size: 4rem;
@@ -31,7 +32,8 @@
 }
 .numberText {
   color: rgb(223, 205, 36);
+  gap: 8rem;
 }
-.rounded {
+.round {
   border-radius: 40px;
 }

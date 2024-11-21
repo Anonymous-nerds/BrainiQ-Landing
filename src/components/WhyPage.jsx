@@ -4,7 +4,7 @@ import "./WhyPage.css"
 
 const WhyPage = () => {
   return (
-    <div className="flex flex-col items-center relative mt-0 border-b bg-blue-900 min-h-[800px] rounded">
+    <div className="flex flex-col items-center relative mt-0 border-b bg-blue-900 min-h-[800px] round">
        <div className="text-center">
         <span className="flex mt-20 bg-neutral-200  text-blue-500 rounded-md h-8 text-sm font-medium px-3 py-2 uppercase">
             Why Solution</span>  
@@ -29,7 +29,7 @@ const WhyPage = () => {
 
         <div className='flexCenter stats'>
             <div className="flexColStart  font-semibold stat">
-                <span className='numberText'>
+                <span className=' numberText'>
                     <CountUp start={1} end={94} duration={4}/>
                     <span>M+</span>
                     </span>

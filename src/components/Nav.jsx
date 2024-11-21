@@ -21,8 +21,8 @@ export default function Nav() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   return (
-    <div className="bg-transparent Nav mb-32">
-      <header className="inset-x-0 top-0 z-50 fixed">
+    <div className="bg-transparent Nav mb-18">
+      <header className="inset-x-0 top-0  fixed">
         <nav
           className="flex items-center justify-between p-5 lg:px-8 bg-transparent bg-opacity-20 backdrop-blur-lg mb-32"
           aria-label="Global"

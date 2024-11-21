@@ -15,8 +15,8 @@ function App() {
   return (
     <div className="App font-nunito-eb">
       <div className="">
-        <div className="max-w-7xl mx-auto pt-20 px-6">
-          <div className="max-w-7xl mx-auto pt-20 px-6">
+        <div className="max-w-7xl mx-auto pt-20 px-0">
+          <div className="max-w-7xl mx-auto pt-20 px-0">
             <Nav />
           </div>
           <Hero />

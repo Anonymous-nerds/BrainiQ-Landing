@@ -6,8 +6,8 @@ const SolutionPage = () => {
         <div className="text-center">
             <span className="bg-neutral-200 text-blue-500 rounded-md h-6  text-sm font-medium px-3 py-2 uppercase">
               Our Solution</span>
-              <h2 className="text-10xl sm:text-5xl lg:text-6xl mt-10 lg:mt-20 tracking wide font-bol"> Buisness Analytic Solutions</h2>
-              <p className="mt-10 text-lg text-center text-neutral-500 max-w-4xl">
+              <h2 className="text-10xl sm:text-5xl lg:text-6xl mt-10 lg:mt-20 tracking wide font-bold"> Buisness Analytic Solutions</h2>
+              <p className="mt-10 text-lg text-center text-black max-w-4xl">
               Use data to learn everything you need to grow your business.
               </p>
         </div>

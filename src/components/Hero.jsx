@@ -2,7 +2,7 @@ import "./Hero.css";
 const Hero = () => {
   return (
     <div className="flex flex-col items-center">
-      <span className="flex bg-neutral-200  text-blue-500 rounded-md h-8 text-sm font-medium px-3 py-2 uppercase">
+      <span className="flex bg-neutral-200  text-blue-500 rounded-md h-8 text-sm font-medium px-3 py-2 uppercase spacings">
         Buisness Analytic Services
       </span>
       <h1 className=" font-bold text-4xl sm:text-6xl lg:text-7xl text-center tracking-wide">
