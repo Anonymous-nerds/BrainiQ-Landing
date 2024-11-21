@@ -10,22 +10,26 @@ import BlogPage from "./components/BlogPage.jsx";
 import FaqPage from "./components/FaqPage.jsx";
 import PrivacyPage from "./components/PrivacyPage.jsx";
 import FooterPage from "./components/FooterPage.jsx";
+import "./components/landing-style.css"
 
 function App() {
   return (
-    <div className="App font-nunito-eb">
-      <div className="">
-        <div className="max-w-7xl mx-auto pt-20 px-6">
+    <>
+      <link rel="stylesheet" href="https://kit-pro.fontawesome.com/releases/v6.2.0/css/pro.min.css"></link>
+      <link rel="stylesheet" type="text/css" href="font.min.css"></link>
+      <div className="App font-nunito-eb">
+        <div className="">
+          <Nav />
           <div className="max-w-7xl mx-auto pt-20 px-6">
-            <Nav />
+          
           </div>
           <Hero />
           <SolutionPage />
           <WhyPage />
           <BlogPage />
-          <FaqPage />
+          {/*<FaqPage />*/}
           <PrivacyPage />
-          <FooterPage />
+          {/*<FooterPage />*/}
           {/* <div className="py-5"></div> */}
           <Toaster position="top-center" toastOptions={{ duration: 2000 }} />
           <BrowserRouter>
@@ -36,7 +40,7 @@ function App() {
           </BrowserRouter>
         </div>
       </div>
-    </div>
+    </>
   );
 }
 
