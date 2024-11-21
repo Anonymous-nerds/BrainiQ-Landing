@@ -19,9 +19,10 @@ const BlogPage = () => {
                      justify-center items-center'>
                     <img src={picture.image} alt="Pictures" /> 
                     </div>
+                
                     </div>
-                    <div className=''>
-                        <h5 className='mt-8 mb-6 text-xl'>{picture.description}</h5>
+                    <div className='sol'>
+                        <h5 className='mt-9 ml-8 mb-6 text-xl font-semibold'>{picture.description}</h5>
                     </div>
 
                 

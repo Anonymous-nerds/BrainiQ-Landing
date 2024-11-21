@@ -7,7 +7,9 @@ import Hero from "./components/Hero.jsx";
 import SolutionPage from "./components/SolutionPage.jsx";
 import WhyPage from "./components/WhyPage.jsx";
 import BlogPage from "./components/BlogPage.jsx";
+import FaqPage from "./components/FaqPage.jsx";
 import PrivacyPage from "./components/PrivacyPage.jsx";
+import FooterPage from "./components/FooterPage.jsx";
 
 function App() {
   return (
@@ -21,7 +23,9 @@ function App() {
           <SolutionPage />
           <WhyPage />
           <BlogPage />
+          <FaqPage />
           <PrivacyPage />
+          <FooterPage />
           {/* <div className="py-5"></div> */}
           <Toaster position="top-center" toastOptions={{ duration: 2000 }} />
           <BrowserRouter>
