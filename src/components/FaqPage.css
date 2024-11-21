@@ -29,13 +29,10 @@
   justify-content: center;
   align-items: flex-start;
 }
-.box {
-  width: 90%;
-  display: flex;
-  justify-content: center;
-  background-color: rgb(18, 63, 134);
-  border-radius: 20px;
-  color: #fff;
-  padding: 8px;
-  margin-left: 5rem;
+
+.roundeds {
+  border-radius: 40px;
+  width: 80%;
+  padding: 10px;
+  margin-left: 8rem;
 }
