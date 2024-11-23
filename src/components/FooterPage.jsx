@@ -3,7 +3,7 @@ import "./FooterPage.css"
 
 const FooterPage = () => {
   return (
-    <div className='flex flex-col items-center w-full relative border-b bg-blue-900 min-h-[800px] rounded'>
+    <div className='flex flex-col items-center relative border-b bg-blue-900 min-h-[800px] rounded'>
         <div className='text-center'>
             <h2 className='font-bold text-10xl sm:text-5xl lg:text-6xl  lg:mt-20 mainText'>Let's get you started</h2>
             <p className='mt-10 text-lg text-center text-white max-w-4xl'>

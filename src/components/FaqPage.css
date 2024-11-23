@@ -26,5 +26,6 @@
 .roundeds {
   border-radius: 40px;
   width: 80%;
+  padding: 10px;
   margin-left: 8rem;
 }
