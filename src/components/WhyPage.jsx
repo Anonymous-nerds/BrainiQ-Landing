@@ -31,7 +31,7 @@ const WhyPage = () => {
 
         <div className='flexCenter stats'>
             <div className="flexColStart  font-semibold stat">
-                <span className='numberText'>
+                <span className=' numberText'>
                     <CountUp start={1} end={94} duration={4}/>
                     <span>M+</span>
                     </span>

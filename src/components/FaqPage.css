@@ -1,19 +1,13 @@
 .hero-wrapper {
   color: white;
   padding-bottom: 2rem;
-  background-color: var(--black);
+/*  background-color: var(--black);*/
+background-color:red;
 }
 
 .hero-container {
   justify-content: space-between;
   align-items: center;
-}
-.paddings {
-  padding: 1.5rem;
-}
-
-.innerWidth {
-  width: 100%;
 }
 
 .flexCenter {
@@ -30,9 +24,107 @@
   align-items: flex-start;
 }
 
-.roundeds {
+.faqCont{
+  width:100%;
+  height:600px;
+  margin:0px;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+.roundeds{
   border-radius: 40px;
-  width: 80%;
+  width: 90%;
+  height:90%;
   padding: 10px;
-  margin-left: 8rem;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  background-color:#505b91;
+}
+.roundeds .left-sect{
+  width:50%;
+  height:100%;
+  display:flex;
+  flex-direction:column;
+  justify-content:flex-start;
+  align-items:flex-start;
+/*  background-color:red;*/
+}
+.roundeds .left-sect p:nth-child(1){
+  font-size:60px;
+  color:white;
+  margin-top:40px;
+  margin-left:50px;
+  font-family:'Aldrich',sans-serif;
+}
+.roundeds .left-sect p:nth-child(2){
+  font-size:15px;
+  color:white;
+  font-family:'Montserrat',sans-serif;
+  color:rgba(255, 255, 255, .7);
+  margin:10px 50px;
+}
+.roundeds .left-sect .banner-btn{
+  width:25%;
+  height:9%;
+  margin:30px 40px;
+  background-color:white;
+}
+.roundeds .left-sect .banner-btn p{
+  color:black;
+  font-size:13px;
+  margin:0px;
+  margin-top:2px;
+  font-weight:bolder;
+  font-family:'Comfortaa',sans-serif;
+}
+.roundeds .left-sect .banner-btn i{
+  color:black;
+  margin-left:10px;
+}
+.roundeds .right-sect{
+  width:50%;
+  height:100%;
+  display:flex;
+  flex-direction:column;
+  justify-content:flex-start;
+  align-items:flex-start;
+}
+.question-cont{
+  width:80%;
+  height:13%;
+  margin-left:30px;
+  margin-top:10px;
+  display:flex;
+  flex-direction:column;
+  justify-content:flex-start;
+  align-items:flex-start;
+  border-bottom:1px solid #8088b3;
+  cursor:pointer;
+  transition:all .5s ease;
+  border-radius:5px 5px 0px 0px;
+}
+.question-cont:hover{
+  background-color:#8f96bc;
+}
+.question-cont:nth-child(1){
+  margin:50px 0px 0px 30px;
+}
+.questCont{
+  width: 100%;
+  height: 100%;
+  display:flex;
+  justify-content: flex-start;
+  align-items: center;
+  color:white;
+}
+.questCont i{
+  font-size:17px;
+  margin-left:7px;
+  margin-right:20px;
+}
+.questCont p{
+  font-size:17px;
+  font-family:'Nunito',sans-serif;
 }
