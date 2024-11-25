@@ -13,6 +13,7 @@ const BlogPage = () => {
                 <span className='primaryText'>Featured blogs</span>
             </div>
         </div>
+        
         <div className='flex fles-wrap mt-10 lg:mt-20 blogCont'>
             {pictures.map((picture, index) =>  
                 <div key = {index} className = "blog-container">
