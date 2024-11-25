@@ -13,54 +13,6 @@ const SolutionPage = () => {
               </p>
         </div>
         <div className="flex flex-wrap mt-10 lg:mt-20 notesCont">
-          {/*<div className = "note-container">
-              <div className = "notes">
-              </div>
-              <div className = "notes">
-              </div>
-              <div className = "notes">
-              </div>
-          </div>
-          <div className = "note-container">
-              <div className = "notes">
-              </div>
-              <div className = "notes">
-              </div>
-              <div className = "notes">
-              </div>
-          </div>
-          <div className = "note-container">
-              <div className = "notes">
-              </div>
-              <div className = "notes">
-              </div>
-              <div className = "notes">
-              </div>
-          </div>
-          <div className = "note-container">
-              <div className = "notes">
-              </div>
-              <div className = "notes">
-              </div>
-              <div className = "notes">
-              </div>
-          </div>
-          <div className = "note-container">
-              <div className = "notes">
-              </div>
-              <div className = "notes">
-              </div>
-              <div className = "notes">
-              </div>
-          </div>
-          <div className = "note-container">
-              <div className = "notes">
-              </div>
-              <div className = "notes">
-              </div>
-              <div className = "notes">
-              </div>
-          </div>*/}
           {features.map((feature, index) => (
             <div key ={index} className = "note-container">
               <div className = "notes">

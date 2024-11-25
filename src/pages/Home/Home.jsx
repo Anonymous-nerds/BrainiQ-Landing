@@ -7,7 +7,6 @@ import BlogPage from "../../components/BlogPage.jsx";
 import FaqPage from "../../components/FaqPage.jsx";
 import PrivacyPage from "../../components/PrivacyPage.jsx";
 import FooterPage from "../../components/FooterPage.jsx";
-// import "./components/landing-style.css";
 
 const Home = () => {
   return (
@@ -24,9 +23,9 @@ const Home = () => {
         <SolutionPage />
         <WhyPage />
         <BlogPage />
-        {/*<FaqPage />*/}
+        <FaqPage />
         <PrivacyPage />
-        {/*<FooterPage />*/}
+        <FooterPage />
         {/* <div className="py-5"></div> */}
       </div>
     </div>
