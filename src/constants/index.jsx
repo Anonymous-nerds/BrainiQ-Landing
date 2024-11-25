@@ -200,3 +200,9 @@ export const communityLinks = [
   { href: "#", text: "Hackathons" },
   { href: "#", text: "Jobs" },
 ];
+export const faqs = [
+  {question : "Where does Inquiro get their data?", answer : "We are not allowed to disclose our data sources, but the Inquiro Profile is composed of millions of unique data points from demographics, telco, lifestyle, purchase behavior and intent to location data that are aggregated from different data sources and partners."},
+  {question : "How do we ensure that the data is secure?", answer : "Inquiro takes data privacy really seriously and abides with 917Ventures and Globe's data privacy efforts. Upon client onboarding, we make sure that Data Processing Agreement (DPA) is in place and that Inquiro will only enrich data that clients already own and act only as a data processor, not a data controller. Also, the data being profiled is aggregated and anonymized for additional security."},
+  {question : "Can I download other data apart from the mobile numbers?", answer : "Because of the Data Processing Agreement (DPA), you will only be able to download the mobile numbers of the profiles created."},
+  {question : "How can we ensure that you don’t share our data with your other clients?", answer : "We in Inquiro are champions of data privacy and security and we only use the mobile numbers sent for matching and no other purpose. Each client’s data is stored separately and not combined with any other database. For more information on Inquiro's privacy policy and your rights as a client, visit Privacy Policy."},
+];
