@@ -2,7 +2,7 @@ import React from "react";
 import Nav from "../../components/Nav";
 import heroImg from "../../assets/heroImg.jpg"
 import image2 from "../../assets/hImage.jpg"
-
+import './About.css'
 const About = () => {
   return (
     <div>
@@ -26,7 +26,28 @@ const About = () => {
       </div>
 
 
-       <div className="flex p-8 space-y-12 justify-center items-center mt-7">
+      <div className="flex space-y-12 justify-center items-center mt-7">
+        <div className="items-center text-cont">
+          <div className = "img-container">
+            <div className = "banner-text">
+                <h2>What is BrainiQ ?</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quae in, nemo tempore velit voluptates voluptatum 
+                voluptas optio maxime, placeat minima aspernatur illum commodi illo accusantium perspiciatis esse, temporibus error 
+                necessitatibus.</p>
+            </div>
+          </div>
+          <div className = "img-container">
+            <div className = "banner-text">
+                <h2>Why BrainiQ ?</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quae in, nemo tempore velit voluptates voluptatum 
+                voluptas optio maxime, placeat minima aspernatur illum commodi illo accusantium perspiciatis esse, temporibus error 
+                necessitatibus.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      {/*<div className="flex p-8 space-y-12 justify-center items-center mt-7">
         <div className="space-y-4 items-center">
           <h2 className="text-4xl font-bold text-neutral-500 justify-center items-center ">What is BrainiQ?</h2>
           <p className="text-gray-600">
@@ -44,7 +65,7 @@ const About = () => {
             <strong>Impact:</strong> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nihil amet consequatur cupiditate nulla voluptates quia eligendi omnis nisi consectetur odio! Vitae amet deleniti porro sit, corporis sunt necessitatibus dolor! Temporibus porro error cum, impedit, incidunt molestiae voluptatibus cupiditate odio ipsam, fugiat nihil! Porro, ab unde.
           </p>
         </div>
-      </div>
+      </div>*/}
 
        <div className="flex flex-col md:flex-row items-center p-8 md:gap-8 bg-neutral-100">
       <div className="w-full md:w-1/2">

@@ -21,32 +21,40 @@ export default function Nav() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   return (
-    <div className = "nav-bar">
-      <div className = "navImg">
-          <img src = {Logo}/>
-      </div>
-      <div className = "nav-elems">
+    <>
+      <link
+        rel="stylesheet"
+        href="https://kit-pro.fontawesome.com/releases/v6.2.0/css/pro.min.css"
+      ></link>
+      <link rel="stylesheet" type="text/css" href="font.min.css"></link>
+      <div className = "nav-bar">
+        <div className = "navImg">
+            <img src = {Logo}/>
+        </div>
+        <div className = "nav-elems">
 
-       {navigation.map((item) => (
-          <span className = "navElem" key={item.name}>
-           <a              
-              href={item.href}                    
-            >
-              <p>{item.name}</p>
-              <i className = "far fa-plus"></i>
-            </a>
-          </span>
-        ))}
-        
+         {navigation.map((item) => (
+            <span className = "navElem" key={item.name}>
+             <a              
+                href={item.href}                    
+              >
+                <p>{item.name}</p>
+                <i className = "far fa-plus"></i>
+              </a>
+            </span>
+          ))}
+          
+        </div>
+        <div className = "nav-btn">
+            <button>
+              <a href = "register">
+                <p>Let's Get Start</p>
+                <i className = "fas fa-hand-point-right"></i>
+              </a>
+            </button>
+        </div>
       </div>
-      <div className = "nav-btn">
-          <button>
-            <a href = "register">
-              <p>Let's Get Start</p>
-              <i className = "fas fa-hand-point-right"></i>
-            </a>
-          </button>
-      </div>
-    </div>
+    </>
   );
+
 }
