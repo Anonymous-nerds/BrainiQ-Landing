@@ -11,11 +11,6 @@ import FooterPage from "../../components/FooterPage.jsx";
 const Home = () => {
   return (
     <div className="Home">
-      <link
-        rel="stylesheet"
-        href="https://kit-pro.fontawesome.com/releases/v6.2.0/css/pro.min.css"
-      ></link>
-      <link rel="stylesheet" type="text/css" href="font.min.css"></link>
       <div className="">
         <Nav />
         <div className="max-w-7xl mx-auto pt-20 px-6"></div>
