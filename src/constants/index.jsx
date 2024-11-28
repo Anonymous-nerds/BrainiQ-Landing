@@ -4,6 +4,11 @@ import { Fingerprint } from "lucide-react";
 import { ShieldHalf } from "lucide-react";
 import { PlugZap } from "lucide-react";
 import { GlobeLock } from "lucide-react";
+import { CalendarCheck2 } from "lucide-react";
+import { BookCheckIcon } from "lucide-react";
+import { Captions } from "lucide-react";
+import { ScanText } from "lucide-react";
+import { SearchCheckIcon } from "lucide-react";
 
 import user1 from "../assets/profile-pictures/user1.jpg";
 import user2 from "../assets/profile-pictures/user2.jpg";
