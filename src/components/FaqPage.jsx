@@ -3,6 +3,17 @@ import { faqs } from "../constants"
 import "./FaqPage.css"
 
 const FaqPage = () => {
+  const displayFaqCont = (num) => {
+    let faqElems = document.querySelectorAll(".question-cont");
+    for (var g = 0; g < faqElems.length; g++) {
+        if (g == num) {
+          faqElems[num].classList.toggle("active");
+        }
+        else{
+          faqElems[g].classList.remove("active");
+        }
+    }
+  }
   return (
     <div className='mt-0 border-b min-h-[400px] faqCont'>
       <div className = "roundeds">
@@ -16,10 +27,13 @@ const FaqPage = () => {
         </span>
         <span className = "right-sect">
           {faqs.map((faq,index) => (
-            <div key = {index} className = "question-cont">
+            <div key = {index} className = "question-cont" onClick ={() => displayFaqCont(index)}>
               <span className = "questCont">
                 <i className = "fas fa-plus"></i>
                 <p>{faq.question}</p>
+              </span>
+              <span className = "ansCont">
+                <p>{faq.answer}</p>
               </span>
             </div>
           ))}

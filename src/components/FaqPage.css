@@ -1,8 +1,7 @@
 .hero-wrapper {
   color: white;
   padding-bottom: 2rem;
-/*  background-color: var(--black);*/
-background-color:red;
+  background-color:red;
 }
 
 .hero-container {
@@ -104,6 +103,14 @@ background-color:red;
   cursor:pointer;
   transition:all .5s ease;
   border-radius:5px 5px 0px 0px;
+  overflow:hidden;
+}
+.question-cont.active{
+  height:35%;
+  background-color:#8f96bc;
+}
+.question-cont:nth-child(2).active, .question-cont:nth-child(4).active{
+  height:45%;
 }
 .question-cont:hover{
   background-color:#8f96bc;
@@ -114,10 +121,40 @@ background-color:red;
 .questCont{
   width: 100%;
   height: 100%;
+  max-height:67px;
   display:flex;
   justify-content: flex-start;
   align-items: center;
   color:white;
+  transition:all .5s ease;
+}
+.question-cont.active .questCont{
+  height:37%;
+}
+.ansCont{
+  width:80%;
+  height:0%;
+  margin-left:40px;
+  transition:all .5s ease;
+}
+.ansCont p{
+  opacity:0%;
+  transform:translateY(-20%);
+  text-align:justify;
+  font-size:12px;
+  font-weight:bolder;
+  color:white;
+  font-family:'Comfortaa',sans-serif;
+  transition:all .5s ease;
+}
+.question-cont.active .ansCont{
+  height:63%;
+  opacity:100%;
+}
+.question-cont.active .ansCont p{
+  transform:translateY(0%);
+  opacity:100%;
+  transition:all .5s ease .5s;
 }
 .questCont i{
   font-size:17px;
